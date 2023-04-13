@@ -3,8 +3,6 @@ ___
 Regex, short for Regular Expression, is a sequence of characters that forms a search pattern. It's used mainly in string matching and manipulation by searching for specific patterns within a larger text. These patterns can be anything from simple alphabets, numbers or special characters, to complex expressions used to validate, clean or extract data. In programming, regex is widely used in scripting languages, text editors, and other tools to perform advanced string manipulation and pattern matching operations.
 
 ## Summary
-___
-
 Here is an example of a regex that matches HTML tags:
 
 ``` /^<([a-z]+)([^>]+)*(?:>(.*)<\/\1>|\s+\/>)$/ ```
